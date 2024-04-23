@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: #ffffffdf;
+    overflow: hidden;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+.main-sec {
+    height: 75vh;
+}
+
+
+.form-signin {
+    text-align: center;
+}
+
+.image-style {
+    text-align: center;
+}
+
+.form-contain {
+    max-width: 400px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.foot-div {
+    margin-top: 0;
+}
+.form-control {
+    margin-bottom: 2rem;
+}
+
+
+
+.image-style {
+    margin-top: 7rem;
+   
+}
+
+.text-col {
+    color: rgb(0, 0, 174);
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/9b6401d2ee.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="complaint_form.css" />
+</head>
+<body>
+  <div class="headline" id="headline">
+    <a href="home.html"><i class="fa-solid fa-house"></i></a>
+    <h2 style="font-size: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;">Complainant Report of Article/Document Lost</h2>
+  </div>
+  <form action="/action_page.php" method="post">
+        <label for="Cname">Complainant's Name उजुरीकर्ताको नाम:</label>
+        <input type="text" name="Cname" id="Cname"  required><br>
+
+        <label for="Fname">Name of Father/Mother बुबा/आमाको नाम:</label>
+        <input type="text" name="Fname" id="Fname"  value=""required><br>
+
+        <label for="Caddress">Complaint's Address उजुरीकर्ताको ठेगाना:</label>
+        <input type="text" name="Caddress" id="Caddress"  value=""required><br>
+
+        <label for="mbNumber">Mobile Number मोबाइल नम्बर:</label>
+        <input type="text" name="mbNumber" id="number"  value="" required><br>
+
+        <label for="eMail">Email इमेल:</label>
+        <input type="email" name="eMail" id="eMail"  value="" required><br>
+
+        <label for="Laddress">Place of Lost हराएको ठाउँ:</label>
+        <input type="text" name="Laddress" id="Laddress"  value="" required><br>
+
+        <label for="Ldate">Date of Lost हराएको मिति:</label>
+        <input type="date" name="Ldate" id="Ldate" >
+
+        <label for="Ltime">Time of Lost हराएको समय:</label>
+        <input type="time" name="Ltime" id="Ltime" ><br>
+
+
+        <label for="Lost-itmes" >Lost Items हराएको वस्तु:</label>
+        <select id="option" itemid="Lost-items" name="Li_option" required>
+          <option value="Mobile">--SELECT--</option>
+          <option value="Mobile">Mobile</option>
+          <option value="wallet">Wallet</option>
+          <option value="documents">Document</option>
+          <option value="vehicles">Vehicle</option>
+          <option value="Others">Others</option>
+        </select><br>
+
+        <label for="comment"> Description:</label>
+        <textarea rows="4" cols="50" name="comment" id="comment" form="usrform" placeholder="आफ्नो गुनासो बारे लेख्नुहोस्" required> </textarea><br>
+        <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
+

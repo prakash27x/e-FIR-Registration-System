@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply background image */
+  body {
+    background-color:rgb(240,240,240);
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+  }
+  
+  /* Style the form container */
+  form {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.447);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  
+  /* Style the form header */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(14,12,123);
+    font-family: martels sans semibold;
+  }
+  
+  /* Style form input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.537);
+    border-radius: 5px;
+    background-color: rgb(243,241,241);
+    box-sizing: border-box;
+  }
+
+  
+  /* Style submit button */
+  input[type="submit"] {
+    background-color:#1e7fb2;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0a6393;
+  }
+  
+  /* Style select dropdown */
+  select {
+    padding: 10px;
+  }
+  
+  /* Style textarea */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  #headline{
+    background-color: #1e7fb2;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position:fixed;
+    bottom: 94%;
+    width: 100%;  
+    left: 0; 
+    right: 0;
+}
+
+#headline a{
+  color: rgb(255, 255, 255);
+  margin: 1% 2%;
+}

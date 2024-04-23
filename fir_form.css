@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(244, 244, 244);
+    /*display: grid;*/
+}
+#headline{
+    background-color: #1e7fb2;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position:fixed;
+    bottom: 92.99%;
+    width: 100%;  
+    left: 0; 
+    right: 0;
+}
+#headline a{
+    color: rgb(255, 255, 255);
+    margin: 1% 2%;
+}
+form {
+    width: 80%;
+    max-width: 60%;
+    margin: 70px auto 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+    /* box-sizing: border-box; */
+}
+#container label{
+    font-family: martels sans semibold;
+    font-size: 15px;
+    color: rgb(14, 12, 123);
+}
+#container{
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 10px;
+}
+.text-box{
+    width: 100%;
+}
+
+#applicant label input[type]{
+    display: flex;
+    justify-content: space-between;
+}
+/*  //on which law or issue petitioned or notified...
+#applicant .text-box{
+        width: 100%;
+        height: -.425rem;
+        padding: 0.35rem 0.75rem;
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.4;
+        color: var(--black-1);
+        background-color: var(--gray-800);
+        background-clip: padding-box;
+        border: 5px solid #c7c7c7;
+        border-radius: 4px;
+        transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}*/
+
+input[type] {
+    padding: 12px 2%; /* Use percentage for responsive padding */
+    margin: 8px 0;
+    display: block; /* Change to block to take full width */
+    border: 2px solid rgba(0, 0, 0, 0.537);
+    border-radius: 5px;
+    background-color: rgb(243, 241, 241);
+    width: calc(100% - 4%); /* Adjust width considering padding (2% on each side) */
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+textarea{
+    border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.537);
+}
+
+input[type="submit"] {
+    background-color: #1e7fb2;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0a6393;
